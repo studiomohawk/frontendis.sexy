@@ -5,6 +5,7 @@ body {
   background-color: #CC1F58;
   color: #ffffff;
   font-size: 100%;
+  word-wrap: break-word;
 }
 
 .page {
@@ -37,6 +38,11 @@ h1,
   font-family: "Alegreya Sans", sans-serif;
   line-height: 1;
   margin-bottom: 0.5em;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  -o-hyphens: none;
+  hyphens: none;
 }
 img {
   margin-bottom: 0.5em;
