@@ -1,0 +1,43 @@
+html, body {
+  height: 100%;
+}
+body {
+  background-color: #CC1F58;
+  color: #ffffff;
+  font-size: 100%;
+}
+
+.page {
+  min-height: 100%;
+  text-align: center;
+}
+
+.table {
+  display: table;
+  width: 100%;
+}
+.table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+h1, .h1, .alpha,
+h2, .h2, .beta,
+h3, .h3, .gamma,
+h4, .h4, .delta,
+h5, .h5, .epsilon,
+h6, .h6, .zeta {
+  font-weight: bold;
+  margin: 0;
+  text-rendering: optimizeLegibility;
+}
+h1,
+.h1,
+.alpha {
+  font-size: 3.75em;
+  font-family: "Alegreya Sans", sans-serif;
+  line-height: 1;
+  margin-bottom: 0.5em;
+}
+img {
+  margin-bottom: 0.5em;
+}
