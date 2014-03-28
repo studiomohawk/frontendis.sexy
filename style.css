@@ -41,3 +41,7 @@ h1,
 img {
   margin-bottom: 0.5em;
 }
+.loading {
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
